@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.team{
+    background-color: rgb(0, 0, 0);
+    height: 140em;
+}
+.team a{
+    text-decoration: none;
+    color: white;
+}
+.teamContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.teamContainer_heading{
+    margin-top: 100px;
+}
+.teamContainer_heading h1{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    font-size: 110px;
+}
+.teamContainer_body{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.teamBody{
+    margin-top: 80px;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+.teamBody_person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    padding: 10px;
+    margin: 15px;
+}
+.teamBody_personImage{
+    margin: 3px;
+}
+.teamBody_personDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.teamBody_personDetails .teamHeading{
+    color: white;
+    line-height: 55px;
+    font-family: 'Bebas Neue', cursive;
+}
+.teamBody_personDetails .teamParagraph{
+    color: white;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.teamPosition{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+}
+.teamSocials a{
+    margin-left: 15px;
+}
+@media (max-width: 1280px) {
+    .team{
+        background-color: rgb(0, 0, 0);
+        height: 200em;
+    }
+}
+@media (max-width: 760px) {
+    .team{
+        background-color: rgb(0, 0, 0);
+        height: 359em;
+    }
+}
+@media (max-width: 480px) {
+    .team{
+        background-color: rgb(0, 0, 0);
+        height: 350em;
+    }
+    .teamContainer_heading h1{
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        font-size: 60px;
+    }
+}

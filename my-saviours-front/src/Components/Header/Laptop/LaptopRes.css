@@ -1,0 +1,20 @@
+.headerContainer_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 800px;
+    height: 100%;
+    background-color: #141523;
+}
+.headerContainer_items .items{
+    display: flex;
+    align-items: center;
+    border-top: 1.5px solid transparent;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+    color: white;
+}
+.headerContainer_items .items:hover{
+    border-top: 2px solid #3472a5;
+    color: rgba(169, 191, 211, 0.4);
+}

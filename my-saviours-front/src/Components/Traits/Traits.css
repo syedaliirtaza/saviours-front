@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.traits{
+    background-color: rgb(0, 0, 0);
+    height: 872px;
+}
+.traits h1{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-size: 110px;
+}
+.traitsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    height: 500px;
+}
+.traitsDetails{
+    display: flex;
+    flex: 0.35;
+    flex-direction: column;
+    align-items: flex-end;
+    /* justify-content: flex-end; */
+    color: whitesmoke;
+    /* border: 1px solid white; */
+}
+.traitsDetails span{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    line-height: 65px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.traitsDetails span:hover{
+    color: whitesmoke;
+    font-size: 26px;
+}
+.traitsCards{
+    display: flex;
+    flex: 0.65;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+    /* border: 1px solid white; */
+}
+@media (max-width: 1280px) {
+    .traits{
+        background-color: rgb(0, 0, 0);
+        height: 872px;
+    }
+}
+@media (max-width: 780px) {
+    .traits{
+        background-color: rgb(0, 0, 0);
+        height: 950px;
+    }
+    .traits h1{
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 70px;
+        font-size: 80px;
+    }
+    .traitsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 100px;
+        height: 510px;
+    }
+    .traitsDetails span{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 19px;
+        line-height: 55px;
+        letter-spacing: 5px;
+    }
+    .traitsCards{
+        margin-top: 215px;
+    }
+}
+@media (max-width: 480px) {
+    .traits h1{
+        font-family: 'Bebas Neue', cursive;
+        color: white;
+        text-align: center;
+        position: relative;
+        top: 70px;
+        font-size: 60px;
+    }
+    .traitsDetails span{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 15px;
+        line-height: 55px;
+        letter-spacing: 5px;
+    }
+    .traitsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-top: 100px;
+        height: 500px;
+    }
+    .traitsCards{
+        margin-top: 185px;
+    }
+}

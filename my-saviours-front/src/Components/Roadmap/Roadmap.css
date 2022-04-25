@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.roadmap{
+    background-color: #0E0F16;
+    height: 180em;
+}
+.roadmapContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.roadmapHeading{
+    margin-top: 100px;
+}
+.roadmapHeading h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 110px;
+    color: white;
+}
+.roadmapMain{
+    margin-top: 50px;
+  width: 100%;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  color: #fff;
+}
+.roadmapImages{
+    display: flex;
+    flex-direction: column;
+}
+.roadmapImageCard{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.roadmapImagecard_details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+.roadmapImagecard_details h1{
+    color: white;
+    margin-top: 20px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+.roadmapImagecard_details p{
+    color: white;
+    margin-top: 20px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+.roadmapImageCard img{
+    width: 500px;
+    height: 500px;
+    animation: bouncy 4s linear infinite;
+}
+@keyframes bouncy {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.roadmapImageCard img:nth-child(1){
+    animation-delay: 1s;
+}
+.roadmapImageCard img:nth-child(2){
+    animation-delay: 2s;
+}
+.roadmapImageCard img:nth-child(3){
+    animation-delay: 3s;
+}
+.roadmapImageCard img:nth-child(4){
+    animation-delay: 4s;
+}
+
+.roadmapMain_target{
+    margin: 0 20px 20px 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+}
+.roadmapMain_middle{
+    position: relative;
+  background: #fff;
+}
+.roadmapMain_point{
+    position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 25px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+}
+.roadmapMain_point:hover{
+    background: rgb(113, 148, 144);
+}
+.target{
+    text-align: right;
+}
+.roadmapMain_details{
+    padding: 2.5rem;
+}
+.roadmapMain_details .heading{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+    font-size: 30px;
+  font-weight: bold;
+}
+.roadmapMain_details .paragraph{
+    font-family: 'Bebas Neue', cursive;
+    /* font-weight: 400; */
+    line-height: 1.5;
+    font-size: 20px;
+}
+@media (max-width: 1480px) {
+    .roadmap{
+        height: 150em;
+    }
+    .roadmapImageCard img{
+        width: 400px;
+        height: 400px;
+    }
+    .roadmapImageCard{
+        width: 100%;
+    }
+}
+@media (max-width: 780px) {
+    .roadmapMain{
+        margin-top: 50px;
+      width: 100%;
+      padding: 15px;
+      display: grid;
+      grid-template-columns: 0.5fr 3px 1fr;
+      color: #fff;
+    }
+    .roadmapHeading h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 80px;
+        color: white;
+    }
+    .roadmap{
+        background-color: #0E0F16;
+        height: 1250px;
+    }
+}
+@media (max-width: 480px) {
+    .roadmap{
+        background-color: #0E0F16;
+        height: 1050px;
+    }
+    .roadmapMain{
+        margin-top: 50px;
+      width: 100%;
+      padding: 15px;
+      display: grid;
+      grid-template-columns: 0.5fr 3px 1fr;
+      color: #fff;
+    }
+    .roadmapHeading h1{
+        font-family: 'Bebas Neue', cursive;
+        font-size: 60px;
+        color: white;
+    }
+    .roadmapMain_point{
+        position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 15px;
+      height: 15px;
+      background: #fff;
+      border-radius: 50%;
+    }
+    .roadmapMain_details .heading{
+        font-family: 'Bebas Neue', cursive;
+        margin: 0;
+        font-size: 25px;
+      font-weight: bold;
+    }
+    .roadmapMain_target{
+        margin: 0 20px 20px 20px;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+    }
+    .roadmapMain_details .paragraph{
+        font-family: 'Bebas Neue', cursive;
+        line-height: 1.5;
+        font-size: 13px;
+    }
+}

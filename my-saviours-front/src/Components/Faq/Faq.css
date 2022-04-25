@@ -1,0 +1,12 @@
+.FaqHeading{
+    position: absolute;
+    top: 100px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    color: white;
+}
+@media (max-width: 480px) {
+    .FaqHeading {
+        font-size: 30px;
+    }
+}

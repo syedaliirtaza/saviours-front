@@ -1,0 +1,22 @@
+.secret{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+.secret h1{
+    color: wheat;
+}
+.secret input{
+    height: 50px;
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 50px;
+}
+.secret button{
+    height: 50px;
+    width: 100px;
+    margin-top: 50px;
+    border-radius: 50px;
+}

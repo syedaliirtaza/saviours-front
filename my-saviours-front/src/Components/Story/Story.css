@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.story{
+    background-color: rgba(12, 12, 12, .5);
+    height: 85em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.storyContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.storyContainer .two{
+    font-size: 70px;
+}
+.storyContainer h1{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 100px;
+    color: white;
+    font-size: 110px;
+}
+.storyContainer p{
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.storyConatiner_button{
+    display: flex;
+    margin-top: 20px;
+}
+.storyConatiner_button button{
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+.storyConatiner_button button:hover{
+    background-color: wheat;
+    color: black;
+}
+.storyContainer a{
+    text-decoration: none;
+    color: white;
+}
+.storyContainer a:hover{
+    color: black;
+}
+@media (max-width: 1280px) {
+    .story{
+        background-color: rgba(12, 12, 12, .5);
+        height: 105em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 780px) {
+    .story{
+        background-color: rgba(12, 12, 12, .5);
+        height: 120em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .storyContainer h1{
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 100px;
+        color: white;
+        font-size: 80px;
+    }
+    .storyContainer p{
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 20px;
+        color: white;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .storyConatiner_button button{
+        border: 1px solid white;
+        border-radius: 30px;
+        background-color: transparent;
+        padding: 15px;
+        margin: 15px;
+        width: 120px;
+        color: white;
+        cursor: pointer;
+        font-size: 12px;
+    }
+    .storyConatiner_button button{
+        text-decoration: none;
+        color: white;
+    }
+}
+@media (max-width: 480px) {
+    .story{
+        background-color: rgba(12, 12, 12, .5);
+        height: 110em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .storyContainer .two{
+        font-size: 60px;
+    }
+    .storyContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+    .storyContainer h1{
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 100px;
+        color: white;
+        font-size: 60px;
+    }
+    .storyContainer p{
+        font-family: 'Bebas Neue', cursive;
+        margin-top: 20px;
+        color: white;
+        letter-spacing: 2px;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .storyConatiner_button button{
+        border: 1px solid white;
+        border-radius: 30px;
+        background-color: transparent;
+        padding: 15px;
+        margin: 15px;
+        width: 100px;
+        color: white;
+        cursor: pointer;
+        font-size: 12px;
+    }
+}

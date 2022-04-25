@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.mintHeaderContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: auto;
+    background-color: rgba(20, 21, 36, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    /* background-color: transparent; */
+    /* background-color: rgb(255, 255, 255); */
+}
+.mintHeaderContainer_Socials{
+    display: flex;
+    justify-content: space-evenly;
+    width: 180px;
+    color: white;
+    cursor: pointer;
+}
+.mintLogo_heading{
+    font-weight: 800;
+}
+.mintHeaderContainer_logo h1{
+    /* font-family: 'Amatic SC', cursive; */
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.mintHeaderContainer .connect{
+    color: wheat;
+    font-size: 15px;
+    cursor: pointer;
+}
+.mintHeaderContainer .connect:hover{
+    color: rgb(233, 219, 96);
+    font-size: 16px;
+}
+.mintContainer{
+    height: 51em;
+    display: flex;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* font-family: 'Bebas Neue', cursive; */
+}
+.mintContainerWelcome{
+    margin-top: 180px;
+}
+.mintContainerWelcome p{
+    color: white;
+    font-size: 70px;
+    letter-spacing: 5px;
+}
+.mintContainerPara{
+    margin-top: 30px;
+}
+.mintContainerPara p{
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.minter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.minterPara{
+    margin-top: 13px;
+}
+.minterPara p{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.minterButton{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minterButton p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 35px;
+}
+.minterButton button{
+    padding: 5px;
+    background-color: rgb(77, 73, 73);
+    color: white;
+    border: none;
+    width: 60px;
+    border-radius: 30px;
+    font-size: 25px;
+    box-shadow: -1px 1px 8px 3px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+.minterButton button:hover{
+    background-color: white;
+    color: black;
+}
+.minter .mint button{
+    padding: 5px;
+    background-color: rgb(77, 73, 73);
+    color: white;
+    border: none;
+    width: 100px;
+    border-radius: 30px;
+    font-size: 22px;
+    box-shadow: -1px 1px 8px 3px rgba(0,0,0,0.75);
+    cursor: not-allowed;
+}
+.minter .mint button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.mintFooterContainer{
+    background-color: #0b0b0f;
+    height: 50px;
+}
+.note{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.note p{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.mintFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.mintFooter small{
+    color: white;
+}
+
+
+
+@media (max-width: 780px) {
+    .mintHeaderContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgba(20, 21, 36, 0.9);
+        /* background-color: rgb(255, 255, 255); */
+    }
+    .mintHeaderContainer_logo h1{
+        color: white;
+        font-size: 25px;
+    }
+    .mintHeaderContainer_Socials{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100px;
+        color: white;
+    }
+    .mintContainerWelcome{
+        margin-top: 230px;
+    }
+    .mintContainerWelcome p{
+        font-size: 40px;
+    }
+    .mintContainer{
+        height: 56.8em;
+
+    }
+}
+    @media (max-width: 480px) {
+    .mintHeaderContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+        background-color: rgba(20, 21, 36, 0.9);
+        /* background-color: rgb(255, 255, 255); */
+    }
+    .mintHeaderContainer_logo h1{
+        color: white;
+        font-size: 20px;
+    }
+    .mintHeaderContainer_Socials{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100px;
+        color: white;
+    }
+    .mintContainerWelcome{
+        margin-top: 130px;
+    }
+    .mintContainerWelcome p{
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+    .mintContainer{
+        height: 45em;
+    }
+    .note{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .note p{
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+}
